@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 h1 {
-    color: red;
+    color: blue;
 }
 
 h1 {
@@ -14,9 +14,30 @@ h2 {
 }
 
 h1 {
-    font-family: Verdana, Geneva, sans-serif;
+    font-family: Impact, Charcoal, sans-serif;
 }
 
 p {
     text-align: center;
+}
+
+.form-control {
+    width: 30%;
+    float: right;
+}
+
+.img-responsive {
+    margin: auto;
+}
+
+.navbar-brand {
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+.container-fluid {
+    font-family: Impact, Charcoal, sans-serif;
+}
+
+.btn {
+    float: right;
 }
