@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :object_names
   resources :products
   resources :products
   resources :object_names
