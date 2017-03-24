@@ -1,8 +1,4 @@
 Rails.application.routes.draw do
-  resources :object_names
-  resources :products
-  resources :products
-  resources :object_names
   resources :products
   get 'static_pages/about'
 
@@ -64,5 +60,5 @@ Rails.application.routes.draw do
   #     # (app/controllers/admin/products_controller.rb)
   #     resources :products
   #   end
-  resourses :orders, only: [:index, :show, :create, :destroy]
+  resources :orders, only: [:index, :show, :create, :destroy]
 end
